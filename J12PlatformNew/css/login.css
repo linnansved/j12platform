@@ -1,0 +1,93 @@
+/*
+file: login.css 
+*/
+
+body {
+    color: #3EA1BD;
+}
+
+footer {
+    color: white;
+    font-family: 'Pacifico';
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.loginruta {
+    position: relative;
+    width: 80%;
+    /* BREDD 80% AV SIDAN */
+    max-width: 480px;
+    /* FÅR DOCK MAX VARA 500PX BRED */
+    margin: 100px auto;
+    /* AUTO FÖR ATT CENTRERA SECTIONEN, 100PX FÖR ATT GÖRA EN MARGINAL UPPE OCH NERE */
+    background: #FFF;
+    /* BAKGROUNDSFÄRG VIT */
+    padding: 40px;
+    /* PADDING FÖR ATT SKAPA LUFT RUNT FORMULÄRET */
+    border-radius: 3px;
+    /* RUNDA HÖRN */
+}
+
+
+/* NY KLASS AV ROBIN, TARGETAR INPUTFÄLTEN I KLASSEN LOGINRUTA */
+
+.loginruta input {
+    width: 100%;
+    /* BREDDEN PÅ INPUTFÄLTEN */
+    margin: 10px auto;
+    /* CENTERAR FÄLTEN I BOXEN */
+    padding: 20px;
+    /* GÖR INPUTFÄLTEN LUFTIGARE */
+    box-sizing: border-box;
+    /* GÖR SÅ ATT PADDING SÄTTS PÅ INSIDAN AV INPUTFÄLTET */
+    font-size: 14px;
+    border: 1px solid #D4D9E2;
+    border-radius: 3px;
+    /* RUNDA HÖRN */
+}
+
+.formHeader {
+    position: relative;
+    text-align: center;
+    /* FÖR ATT CENTRERA TEXTEN */
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    /* MARGINAL UNDER TEXT */
+}
+
+.copyright {
+    text-align: center;
+    /* FÖR ATT CENTERA TEXTEN */
+}
+
+.copyright p {
+    color: #3EA1BD;
+}
+
+button {
+    display: inline-block;
+    /* SÄTT KNAPPARNA INLINE */
+    border: none;
+    /* TA BORT BORDER */
+    margin: 20px auto;
+    /* CENTRERA */
+    background: #F36;
+    /* FÄRG PÅ KNAPP */
+    border-radius: 100px;
+    /* RUNDA HÖRN */
+    height: 50px;
+    line-height: 50px;
+    padding: 0 60px;
+    font-size: 12px;
+    color: #FFF;
+    cursor: pointer;
+    -webkit-transition: box-shadow .2s ease, border .2s ease;
+    transition: box-shadow .2s ease, border .2s ease;
+}
+
+.knappar {
+    text-align: center;
+    /* CENTRERA KNAPPAR */
+}

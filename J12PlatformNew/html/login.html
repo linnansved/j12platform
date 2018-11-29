@@ -1,0 +1,60 @@
+<!--
+file: login.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- LOG IN RESPONSIVE-->
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title> Log In</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/apiConstructor.js"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+    <title>DHS Venture Partners</title>
+
+</head>
+
+<!-- Creates the log in area with two placeholders and one button-->
+
+<body>
+    <main>
+        <section class="loginruta">
+            <header class="formHeader">DHS VENTURE PARTNERS</header>
+            <form name="logindeviceForm" method="post">
+                <input type="text" id="username" name="userid" required="required" placeholder="Username">
+                <input type="password" id="password" name="pswrd" required="required" placeholder="Password">
+                <div class="knappar">
+                    <button type="submit" onclick="check(this.form)" value="Log In" id="logindeviceButton" class="button">Log in</button>
+                </div>
+                
+            </form>
+            <script language="javascript">
+                function check(form){
+                    if(form.userid.value == "linn" && form.pswrd.value == "123")
+                    {
+                        window.open('firstpage.html')
+                    }
+                    else{
+                        alert("The username and password are incorrect")
+                    }
+                }
+            </script>
+        </section>
+    </main>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
